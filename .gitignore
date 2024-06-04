@@ -1,0 +1,13 @@
+##python
+**/.venv
+**/__pycache__/
+secret.json
+**/secret.json
+**/imsi*
+**/somefolder*
+**/work
+
+.env
+
+**/**/*.mp4
+mytest.py
