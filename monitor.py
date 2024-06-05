@@ -56,7 +56,7 @@ def download_new_objects():
 
 def notify_fastapi(file_path):
     """다운로드 완료 후 FastAPI 서버에 알림"""
-    url = "http://127.0.0.1:8000/uploadvideo/"
+    url = "http://192.168.1.222:3000/uploadvideo/"
     files = {'file': open(file_path, 'rb')}
     try:
         response = requests.post(url, files=files)
